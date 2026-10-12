@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "conveyor.o" --strict --scatter "miniproject.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\miniproject.map" -o miniproject.axf
